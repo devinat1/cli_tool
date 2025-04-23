@@ -181,7 +181,7 @@ class ChangelogGenerator:
         Send the git log to the API and return the generated changelog text.
         """
         payload = {
-            "model": "gpt-3.5-turbo",
+            "model": "gpt-4o",
             "messages": [
                 {
                     "role": "user",
@@ -289,7 +289,7 @@ class ChangelogApp:
         print(text)
 
         if self.args.markdown:
-            with open("changelog.md", "w") as md_file:
+            with open("site/changelog.md", "w") as md_file:
                 md_file.write(text)
 
     @staticmethod
