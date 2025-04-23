@@ -1,6 +1,6 @@
 # Changelog CLI Tool
 
-Generate a user‑friendly changelog for the last N git commits using the Claude API proxy.
+Generate a user‑friendly changelog for the last N git commits using OpenAI
 
 ## Prerequisites
 
