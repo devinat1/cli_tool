@@ -83,7 +83,7 @@ You can view the changelog as a static website:
    ```bash
    python changelog_cli.py N -m
    ```
-2. Open `site/index.html` in your browser.
+2. Serve the site via cd site && python3 -m http.server 8000
 
 The page will fetch `changelog.md` and render it via a Markdown parser.
 
