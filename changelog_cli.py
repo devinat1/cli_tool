@@ -1,12 +1,12 @@
 """
-changelog.py: Generate a user-friendly changelog for the last N git commits
+changelog_cli.py: Generate a user-friendly changelog for the last N git commits
 using the OpenAI API
 
 Usage:
-    python changelog.py N [--api-key KEY] [--branch BRANCH] [--repo REPO] [--markdown]
+    python changelog_cli.py N [--api-key KEY] [--branch BRANCH] [--repo REPO] [--markdown]
 
 Example:
-    python changelog.py 10 --api-key sk-abc123 --repo /path/to/repo --markdown
+    python changelog_cli.py 10 --api-key sk-abc123 --repo /path/to/repo --markdown
 Testing:
     pytest main.py
 """
